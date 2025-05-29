@@ -1,0 +1,14 @@
+output "vm2016_public_ip" {
+  value = azurerm_public_ip.pip2016.ip_address
+}
+
+output "vm2022_public_ip" {
+  value = azurerm_public_ip.pip2022.ip_address
+}
+
+
+
+
+
+
+

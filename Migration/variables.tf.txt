@@ -1,0 +1,19 @@
+variable "resource_group_name" {
+  default = "vm-migration-rg"
+}
+
+variable "location" {
+  default = "East US"
+}
+
+variable "admin_username" {
+  default = "azureadmin"
+}
+
+variable "admin_password" {
+  description = "Admin password for Windows VMs"
+  sensitive   = true
+}
+
+
+
